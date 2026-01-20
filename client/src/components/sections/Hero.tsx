@@ -56,7 +56,7 @@ export default function Hero() {
               Contact Me
             </Button>
             <Button size="lg" variant="outline" className="rounded-full border-primary/20 hover:bg-primary/10 hover:text-primary" asChild>
-              <a href="/Jacob_Scott_Clark-Senior_Software_Engineer_1767839612222.pdf" download="Jacob_Scott_Clark_Resume.pdf">
+              <a href="/Jacob_Scott_Clark-Senior_Software_Engineer.pdf" download="Jacob_Scott_Clark_Resume.pdf">
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </a>
@@ -77,7 +77,7 @@ export default function Hero() {
             </a>
             <div className="h-6 w-px bg-border" />
             <span className="font-mono text-sm flex items-center">
-              Wilmington, NC
+              Wilmington, NC, United States
             </span>
           </motion.div>
         </div>

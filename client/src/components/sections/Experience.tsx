@@ -1,55 +1,61 @@
 import { motion } from "framer-motion";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const experienceData = [
   {
-    company: "Nicely Done Enterprises, LLC",
-    location: "FL, United States",
-    role: "Senior Software Engineer",
+    company: "GRUPO LEO S.A.",
+    location: "Panama, Panama",
+    role: "Senior AI Full Stack Engineer",
     period: "Oct 2022 - Present",
+    site: "https://leo.com.pa",
     highlights: [
-      "Architected a high-concurrency enterprise platform using Laravel 10 and React, driving a 30% increase in team productivity.",
-      "Raised average code coverage from 65% to 90% and decreased production bugs by 35% through rigorous code reviews.",
-      "Implemented Laravel Horizon with Redis for background job management, improving job processing times by 30%.",
-      "Led design of a reusable React component library, reducing frontend development time by 30%.",
-      "Optimized database queries achieving a 40% reduction in response times for large-scale datasets."
+      "Designed relational and document schemas (PostgreSQL/MySQL, MongoDB); wrote migration plans and query optimizations to keep p95 latencies low.",
+      "Developed AI-powered applications with Node.js, NestJS, React, TypeScript, PostgreSQL, MongoDB and LangChain, using Kafka for event streaming and improving data validation processing speed by 30%.",
+      "Implemented REST services (Flask) for authentication, billing hooks, and streaming endpoints; added pagination, caching (Redis), and request throttling for scale.",
+      "Productized LLM and CV workloads, fine-tuning for tool use, prompt/rubric design, safe-guardrails, packaged models for real-time inference.",
+      "Forged an automated provisioning solution via Terraform, Docker, and GitOps, streamlining CI/CD pipelines and shrinking deployment times by 40%."
     ]
   },
   {
-    company: "Amazon",
-    location: "NC, United States",
-    role: "Senior Software Engineer",
-    period: "Apr 2022 - Oct 2022",
+    company: "Evoload",
+    location: "Bucharest, Romania",
+    role: "Senior Full Stack Engineer",
+    period: "Apr 2021 - Oct 2022",
+    site: "https://evoload.co",
     highlights: [
-      "Guarded globally accessible consumer domains by maintaining mission-critical backend services with zero downtime.",
-      "Developed critical components for a high-throughput distributed system using Java and AWS.",
-      "Improved system uptime to 99.99% supporting millions of concurrent requests.",
-      "Enhanced monitoring/alerting ensuring reliable service delivery for global consumer domains."
+      "Prepared secure web apps and admin consoles using React, TypeScript, and TailwindCSS with enhanced UI/UX for real-time AI controls, analytics and role-based access, showcasing front-end development skills.",
+      "Orchestrated the launch and monitoring of machine learning models using Python, TensorFlow, and PyTorch, elevating model performance accuracy by 25% in production environments.",
+      "Engineered scalable microservices using NestJS, React, and MongoDB on AWS, processing 20K+ REST APIs requests monthly and improving system reliability.",
+      "Streamlined CI/CD pipelines with Terraform and GitHub Actions, cutting deployment time by 30%.",
+      "Combined Elasticsearch for enhanced search capabilities, improving search query response time by 75%.",
+      "Produced efficient SQL and NoSQL schemas for microservices, increasing data modeling and retrieval speed by 80%.",
+      "Upgraded real-time communication features using WebSockets, reducing latency by 65% and improving user experience."
     ]
   },
   {
     company: "Computer Audio Inc",
     location: "NC, United States",
     role: "Full Stack Engineer",
-    period: "Jan 2014 - Mar 2022",
+    period: "Jan 2014 - Apr 2021",
     highlights: [
-      "Spearheaded development of real-time audio processing pipelines using Python, optimizing API response times by 60%.",
-      "Owned end-to-end feature development from requirements to production support.",
-      "Mentored 8+ developers on TDD, clean architecture, and performance optimization.",
-      "Instituted documentation/code review policies resulting in a 15% bug reduction."
+      "Launched full-stack web applications using React and Django REST Framework, improving scalability and response time by 35%.",
+      "Constructed REST and GraphQL APIs with MongoDB and Redis for background jobs, reducing latency by 30% and improving caching strategies.",
+      "Administered Kubernetes clusters through Rancher, maintaining 95% uptime across all environments, including Linux System Administration and Networking.",
+      "Designed CI/CD pipelines with GitHub Actions and Docker, accelerating releases by 45%, leveraging GitHub for version control and collaboration, and utilizing Webpack for bundling.",
+      "Improved UI/UX design of web applications, resulting in 80% higher user satisfaction and engagement."
     ]
   },
   {
     company: "Dowd Technology Group",
-    location: "Wilmington, NC",
+    location: "NC, United States",
     role: "Software Engineer",
-    period: "Apr 2012 - Dec 2013",
+    period: "Apr 2012 - Jan 2014",
     highlights: [
-      "Delivered custom enterprise software solutions across healthcare and logistics sectors.",
-      "Reduced application latency by 25% and improved code test coverage to 85%.",
-      "Managed full SDLC for 10+ major projects including client support.",
-      "Decreased production support tickets by 25% by identifying root causes of crashes."
+      "Deployed and optimized React-based frontend integrated with REST APIs, enhancing API performance and achieving 21% higher engagement.",
+      "Developed and maintained a customer database using Microsoft SQL Server and PostgreSQL, improving data accessibility for sales teams by 75%.",
+      "Improved API latency by 25% through caching, Redis optimization, and performance tuning.",
+      "Architected and built multi-tenant distributed systems with strict data isolation, ensuring compliance with data privacy regulations, following Architectural principles.",
+      "Standardized UI components with React libraries, implementing robust testing practices and reducing frontend development time by 20%.",
+      "Collaborated cross-functionally to integrate and optimize APIs and SDKs, including Salesforce APIs and Nest.js microservices, boosting delivery speed by 30%."
     ]
   }
 ];
