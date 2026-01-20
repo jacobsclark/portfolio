@@ -1,13 +1,16 @@
-import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import { motion } from "framer-motion";
 
 const skills = {
-  "Languages": ["TypeScript", "JavaScript (ES6+)", "Python", "Java", "SQL", "HTML5", "CSS3"],
-  "Frontend": ["React", "Next.js", "Redux", "Tailwind CSS", "Material UI"],
-  "Backend": ["Laravel", "NestJS", "Node.js", "Django", "RESTful APIs", "Eloquent", "Horizon"],
-  "DevOps": ["AWS (Lambda, S3, EC2, RDS)", "Docker", "Kubernetes", "CI/CD (GitHub Actions, Jenkins)"],
-  "Databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-  "Tools": ["Git", "Jira", "Jest", "Cypress", "Agile/Scrum"]
+  "Languages": ["C++", "C#", "Python", "PHP", "TypeScript", "JavaScript (ES6+)", "Bash"],
+  "Frontend": ["React.js", "Next.js", "Vue.js", "Tailwind CSS", "Sass", "Bootstrap", "Chakra UI", "Storybook", "Three.js"],
+  "State Management": ["Redux", "Zustand", "React Query", "MobX", "TanStack Query"],
+  "Backend": ["Node.js", "NestJS", "Django", "Flask", "FastAPI", "REST APIs", "WebSockets", "Microservices", "TypeORM"],
+  "AI": ["TensorFlow", "PyTorch", "Scikit-learn", "NLTK", "LLMs", "LangChain", "MLflow", "Kubeflow", "OpenCV"],
+  "DevOps": ["AWS (S3, EC2, Lambda)", "Azure Cloud", "Puppet", "Ansible", "Docker", "Kubernetes", "Terraform", "CI/CD"],
+  "Testing & Tools": ["Jest", "Mocha", "Cypress", "React Testing Library", "GitHub Actions", "Vite", "Webpack", "ESLint", "Husky"],
+  "Databases": ["SQL", "NoSQL", "GraphQL", "MongoDB", "MySQL", "PostgreSQL", "Redis", "Elasticsearch"],
+  "Collaboration": ["Git", "GitLab", "Monorepo", "Agile/Scrum", "Figma", "Jira", "Code Reviews", "Cross-functional Teams"]
 };
 
 export default function Skills() {

@@ -37,7 +37,7 @@ export default function About() {
                 Throughout my career, I've managed the full software development lifecycle (SDLC) for 
                 numerous major implementations, consistently delivering solutions that improve productivity 
                 and system reliability. I thrive in challenging environments where I can leverage my 
-                expertise in Laravel, React, and Cloud Infrastructure to solve complex engineering problems.
+                expertise in Python, React, Javascript, Typescript, and Cloud Infrastructure to solve complex engineering problems.
               </p>
               <p>
                 Beyond coding, I am a mentor who believes in elevating team standards through rigorous code 
