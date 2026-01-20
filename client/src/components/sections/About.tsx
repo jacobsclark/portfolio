@@ -15,9 +15,9 @@ export default function About() {
               <div className="relative">
                 <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl shadow-primary/10">
                   <img 
-                    src="/photo.png" 
+                    src="/myphoto.png" 
                     alt="Jacob Scott Clark" 
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full object-cover "
                   />
                 </div>
                 <div className="absolute inset-0 rounded-full border-2 border-primary/50 animate-pulse" />

@@ -44,7 +44,7 @@ export default function Home() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <a href="#home" onClick={(e) => scrollToSection(e, "home")} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-primary/50">
-              <img src="/photo.png" alt="Jacob Scott Clark" className="w-full h-full object-cover grayscale" />
+              <img src="/myphoto.png" alt="Jacob Scott Clark" className="w-full h-full object-cover grayscale" />
             </div>
             <span className="font-mono font-bold text-lg tracking-tight hidden sm:inline">Jacob Clark</span>
           </a>
